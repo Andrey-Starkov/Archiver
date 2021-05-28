@@ -106,8 +106,8 @@ namespace Archiver_Haffman
         {
             byte[] bytes = new byte[new FileInfo(input).Length];
 
-            string TreeString = Haffman.WriteTree(TreeArchive);
-            byte[] TreeBytes = new byte[TreeString.Length];
+            //string TreeString = Haffman.WriteTree(TreeArchive);
+            //byte[] TreeBytes = new byte[TreeString.Length];
             //    for (int i = 0; i < TreeString.Length; i++)
             //      TreeBytes[i] = Convert.ToByte(TreeString[i]);
 
